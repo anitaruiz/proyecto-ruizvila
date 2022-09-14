@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+/* Body */
+body {
+    background-color: #FFD7F2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+/* Barra Navegacion */
+.menu{
+    text-align: center;
+}
+.navegador {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    display: inline-block;
+    
+
+}
+
+.barra {
+    float:left;
+    display:block;
+    padding: 1rem;
+    background-color:#FFD7F2;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+
+
+}
+
+.barra a {
+    color: #791b61;
+    font-size: 1rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px white
+}
+
+.barra:hover:not(.active) {
+    background-color: rgb(205, 133, 228);
+}
+
+.botoninicio {
+    width: 3rem;
+    height: 3rem;
+}
+/* INICIO */
+/* Titulo Inicio */
+.titulo-apasi {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 4rem;
+    color: #791b61;
+
+}
+/* Imagen APASI inicio */
+.logo-apasi-inicio {
+
+    width: 13rem;
+    height: 13rem;
+    top: 5rem;
+    display: flex;
+    float: none;
+
+    }
+
+/* Parrafos del inicio */
+.parrafos-inicio{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 1.1rem;  
+    justify-self: end;
+
+    }
+
+/* Todos los h1 */
+h1{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    font-size: 3rem;
+    color: #791b61;
+}
+
+/* Todos los parrafos */
+    p{
+        font-family: 'Playfair Display', serif; 
+    }
+
+/* Imagen de nosotros */
+.imagen-nosotros{ 
+    width: 20rem;
+    float: right;
+}
+
+/* Imagen con texto del inicio */
+.cita{
+    font-weight: 900;
+    background-image:url(/assets/imagenes/citas3.avif) 
+    }
+
+/* Todos los h2 */
+h2{
+font-family: 'Cinzel', serif;
+text-align: left;
+font-size: 2rem;
+}
+
+/* Todos los H2 con COLOR */
+.h2-color{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #791b61;
+}
+
+/* Propiedades en comun */
+.d-flex{
+    display: flex;
+    align-items: center;
+
+}
+.w-50{
+    width: 50%;
+}
+
+/* Seccion profesionales */
+/* Imagen de profesionales */
+.imagen-profesionales{
+    width: 50%;
+    float: right;
+
+}
+/* Seccion Institucion */
+.h3-instit{
+font-size: 1.5rem ;
+margin-top: 2rem;
+}
+
+
+/* Seccion Actividades */
+
+/* Div de actividades */
+.imagen-act{
+    margin-top: 2rem;
+}
+.div-actividades{
+    text-align: center;
+    padding: 4rem;
+    background-image: url(/assets/imagenes/Habilidades\ Socialaes.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.div-actividades__2{
+    text-align: center;
+    padding: 4rem;
+    background-image: url(/assets/imagenes/Orientacion\ a\ paderes.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.div-actividades__3{
+    text-align: center;
+    padding: 4rem;
+    background-image: url(/assets/imagenes/capacitaciones.avif);
+    background-size: cover;
+    background-position: center; 
+}
+
+.div-actividades__4{
+    text-align: center;
+    padding: 4rem;
+    background-image: url(/assets/imagenes/independencia\ familiar.avif);
+    background-size: cover;
+    background-position: center; 
+}
+
+.actividades-texto{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    text-shadow: 2px 2px 4px #ffffff
+}
+
+.actividades-texto__2{
+    color: rgb(244, 236, 236);
+    text-align: center;
+    text-shadow: black 2px; 
+    text-shadow: 2px 2px 4px #000000
+    
+    }
+
+/* CONTACTO */
+
+label{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+ /* Seccion Footer */
+footer{
+    margin-top: 2rem;
+    border: 0.2rem solid rgb(231, 84, 174);
+    padding: 3rem;
+    bottom: 0;
+    margin-bottom: 0%;
+    vertical-align: bottom;
+    display: flex;
+    
+    
+}
+
+
+
+
+
+
