@@ -25,10 +25,10 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg headercolor">
+    <header class="navbar navbar-expand-xl headercolor">
         <nav class="container shadow p-3 mb-5 rounded colornav">
             <a class="navbar-brand" href="./index.html"> <img src="./assets/imagenes/APASI-Violeta.png" alt="APASI"
-                    width="50" height="50" class="d-inline-block align-text-top d-lg-none"></a>
+                    width="50" height="50" class="d-inline-block align-text-top d-xl-none"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,15 +57,17 @@
     </header>
 
     <main>
-        <section class="container">
-            <div class="row d-flex justify-content-center justify-content-lg-start">
-                <h1 class="titulo-apasi col-12 col-lg-6 order-1 order-lg-2 p-2">APASI</h1>
-                <img src="./assets/imagenes/APASI-Violeta.png" alt="Logo apasi" class="col-12 col-lg-6 w-50 p-3 order-3 order-lg-1 p-2 ">
-                <p class="parrafos-inicio col-12 p-3 order-2 order-lg-3 p-2 "> Asociacion Para el Abordaje Social Integral</p>
-            </div>
-
-        </section>
-
+        <article>
+            <section class="container-fluid container-md ">
+                <div class="row d-flex justify-content-center justify-content-xl-start">
+                    <h1 class="titulo-apasi col-12 order-md-1 col-xl-6 order-1 order-lg-2 p-2">APASI</h1>
+                    <div class="col-8 col-md-6 col-xl-4 order-3 order-md-0 order-lg-1 p-3">
+                        <img src="./assets/imagenes/APASI-Violeta.png" alt="Logo apasi" class="w-100">
+                    </div>
+                    <p class="parrafos-inicio col-12 p-3 order-2 order-md-2 order-xl-3"> Asociacion Para el Abordaje Social
+                        Integral</p>
+                </div>
+            </section>
         </article>
 
         <article>
@@ -75,6 +77,45 @@
         </article>
 
         <article>
+            <section class="container">
+                <div class="row d-flex justify-content-center justify-content-lg-start">
+                    <div class="col-12 col-lg-8">
+                    <h2 class=" col-12">Sobre Nosotros</h2>
+                    <p class="col-12">Nos dedicamos a promover, desarrollar e implementar actividades,acciones, programas y
+                        dispositivos
+                        regionales, nacionales e internacionales dedicados la educación y salud integral de las personas
+                        desde una perspectiva de género, generacional e intercultural, a fin de lograr una formación
+                        integral, fomentar la inclusión y desarrollo de las personas.</p>
+                    </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade col-12 col-lg-4 " data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/imagenes/fono.jpg" class="d-block w-100" alt="Consultorio 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imagenes/Consultorio 1.jpg" class="d-block w-100" alt="Consultorio 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/imagenes/consultorio 2.jpg" class="d-block w-100" alt="Consultorio 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+        </article>
+
+        <!-- <article>
             <h2>Sobre Nosotros</h2>
             <div class="d-flex">
                 <p class="w-50"> Promover, desarrollar e implementar
@@ -91,8 +132,8 @@
                         alt="consultorio">
                 </div>
             </div>
-        </article>
-        </section>
+        </article> -->
+        <!-- </section> -->
     </main>
     <footer>
         <div>

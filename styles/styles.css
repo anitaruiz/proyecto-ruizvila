@@ -11,7 +11,6 @@ body {
     background-color: #FFD7F2;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     height: 100%;
     min-height: 100%;
 }
@@ -41,7 +40,7 @@ a{
 }
 /* Parrafos del inicio */
 .parrafos-inicio{
-    font-family: 'Cinzel', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 2rem;  
     justify-self: end;
@@ -52,6 +51,7 @@ a{
     font-weight: 900;
     background-image:url(/assets/imagenes/textura\ papel.jpg);
     background-size:cover;
+    font-family: 'Roboto', sans-serif;
 
     }
 /* Todos los parrafos */
@@ -60,6 +60,13 @@ p{
     font-size: 1.5rem;
 }
 
+/* Todos los h2 */
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 3rem;
+    color: #791b61;
+    }
 /* Barra Navegacion
 .menu{
     text-align: center;
@@ -132,15 +139,14 @@ h1{
 
 
 
-/* Todos los h2 */
-h2{
-font-family: 'Cinzel', serif;
-text-align: left;
-font-size: 2rem;
-}
+
 
 /* Todos los H2 con COLOR */
 .h2-color{
+    font-family: 'Cinzel', serif;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #791b61;
 }
 
 /* Propiedades en comun */
