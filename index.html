@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=4, initial-scale=1.0">
     <title>APASI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,64 +17,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <header>
+    <header class="navbar navbar-expand-lg headercolor">
+        <nav class="container shadow p-3 mb-5 rounded colornav">
+            <a class="navbar-brand" href="./index.html"> <img src="./assets/imagenes/APASI-Violeta.png" alt="APASI"
+                    width="50" height="50" class="d-inline-block align-text-top d-lg-none"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/profesionales.html">Profesionales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/institucion.html">Institucion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
 
-        <nav class="menu">
-            <ul class="navegador">
-                <li class="barra"><a href="./pages/profesionales.html">Profesionales</a></li>
-                <li class="barra"><a href="./pages/institucion.html">Institucion</a></li>
-                <li class="barra"><a href="./index.html"><img class="botoninicio"
-                            src="./assets/imagenes/APASI-Violeta.png" alt="Inicio"></a></li>
-                <li class="barra"><a href="./pages/actividades.html">Actividades</a></li>
-                <li class="barra"><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+                </ul>
+            </div>
         </nav>
-
     </header>
+
     <main>
-        <section>
-            <article>
-                <div class="d-flex">
-                    <img class="logo-apasi-inicio" src="./assets/imagenes/APASI-Violeta.png" alt="apasi izquieda">
-                    <h1 class="titulo-apasi">APASI</h1>
-                    <p class="parrafos-inicio" id=""> Asociacion Para el Abordaje Social Integral</p>
+        <section class="container">
+            <div class="row d-flex justify-content-center justify-content-lg-start">
+                <h1 class="titulo-apasi col-12 col-lg-6 order-1 order-lg-2 p-2">APASI</h1>
+                <img src="./assets/imagenes/APASI-Violeta.png" alt="Logo apasi" class="col-12 col-lg-6 w-50 p-3 order-3 order-lg-1 p-2 ">
+                <p class="parrafos-inicio col-12 p-3 order-2 order-lg-3 p-2 "> Asociacion Para el Abordaje Social Integral</p>
+            </div>
 
+        </section>
+
+        </article>
+
+        <article>
+            <p class="cita">"La salud mental necesita una gran cantidad de atencion. Es un gran tabu y tiene que ser
+                encarado y
+                resuelto"-Adam Ant</p>
+        </article>
+
+        <article>
+            <h2>Sobre Nosotros</h2>
+            <div class="d-flex">
+                <p class="w-50"> Promover, desarrollar e implementar
+                    actividades,
+                    acciones, programas y dispositivos regionales, nacionales e internacionales dedicados la
+                    educación y salud
+                    integral de las personas desde una perspectiva de género, generacional e intercultural, a fin de
+                    lograr una
+                    formación integral, fomentar la inclusión y desarrollo de las personas.
+                </p>
+                <div class="w-50">
+                    <img class="imagen-nosotros"
+                        src="./assets/imagenes/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2WgFEux4pVA0aLSJCM5Ht7P4VpVSC-giEyqLQMaVnoQgsykdlx4EoFVTfft_vHMcNw.webp"
+                        alt="consultorio">
                 </div>
-
-
-                <hr>
-
-            </article>
-
-            <article>
-                <p class="cita">"La salud mental necesita una gran cantidad de atencion. Es un gran tabu y tiene que ser
-                    encarado y
-                    resuelto"-Adam Ant</p>
-            </article>
-
-            <article>
-                <h2>Sobre Nosotros</h2>
-                <div class="d-flex">
-                    <p class="w-50"> Promover, desarrollar e implementar
-                        actividades,
-                        acciones, programas y dispositivos regionales, nacionales e internacionales dedicados la
-                        educación y salud
-                        integral de las personas desde una perspectiva de género, generacional e intercultural, a fin de
-                        lograr una
-                        formación integral, fomentar la inclusión y desarrollo de las personas.
-                    </p>
-                    <div class="w-50">
-                        <img class="imagen-nosotros"
-                            src="./assets/imagenes/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2WgFEux4pVA0aLSJCM5Ht7P4VpVSC-giEyqLQMaVnoQgsykdlx4EoFVTfft_vHMcNw.webp"
-                            alt="consultorio">
-                    </div>
-                </div>
-            </article>
+            </div>
+        </article>
         </section>
     </main>
     <footer>
@@ -80,7 +99,9 @@
             <p>Mail APASi: apasiac@gmail.com</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 

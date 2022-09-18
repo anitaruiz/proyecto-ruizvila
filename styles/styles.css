@@ -16,12 +16,55 @@ body {
     min-height: 100%;
 }
 
+/* BOOTSTRAP */
 
-/* Barra Navegacion */
+.headercolor{
+    background-color: #FFD7F2;
+}
+
+.colornav{
+    background-color:#FFF5EE;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* INICIO */
+/* Titulo Inicio */
+.titulo-apasi {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 5rem;
+    color: #791b61;
+}
+/* Parrafos del inicio */
+.parrafos-inicio{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 2rem;  
+    justify-self: end;
+
+    }
+/* Imagen con texto del inicio */
+.cita{
+    font-weight: 900;
+    background-image:url(/assets/imagenes/textura\ papel.jpg);
+    background-size:cover;
+
+    }
+/* Todos los parrafos */
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Barra Navegacion
 .menu{
     text-align: center;
 }
-.navegador {
+/* .navegador {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,7 +73,7 @@ body {
     display: inline-block;
     
 
-}
+} */
 
 .barra {
     float:left;
@@ -52,21 +95,13 @@ body {
 
 .barra:hover:not(.active) {
     background-color: rgb(205, 133, 228);
-}
+} */
 
 .botoninicio {
     width: 3rem;
     height: 3rem;
 }
-/* INICIO */
-/* Titulo Inicio */
-.titulo-apasi {
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 4rem;
-    color: #791b61;
 
-}
 /* Imagen APASI inicio */
 .logo-apasi-inicio {
 
@@ -78,14 +113,7 @@ body {
 
     }
 
-/* Parrafos del inicio */
-.parrafos-inicio{
-    font-family: 'Cinzel', serif;
-    text-align: center;
-    font-size: 1.1rem;  
-    justify-self: end;
 
-    }
 
 /* Todos los h1 */
 h1{
@@ -95,10 +123,6 @@ h1{
     color: #791b61;
 }
 
-/* Todos los parrafos */
-    p{
-        font-family: 'Playfair Display', serif; 
-    }
 
 /* Imagen de nosotros */
 .imagen-nosotros{ 
@@ -106,11 +130,7 @@ h1{
     float: right;
 }
 
-/* Imagen con texto del inicio */
-.cita{
-    font-weight: 900;
-    background-image:url(/assets/imagenes/citas3.avif) 
-    }
+
 
 /* Todos los h2 */
 h2{
@@ -121,10 +141,6 @@ font-size: 2rem;
 
 /* Todos los H2 con COLOR */
 .h2-color{
-    font-family: 'Cinzel', serif;
-    text-align: left;
-    font-size: 2.5rem;
-    color: #791b61;
 }
 
 /* Propiedades en comun */
