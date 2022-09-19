@@ -83,7 +83,7 @@ h2{
 
 } */
 
-.barra {
+/* .barra {
     float:left;
     display:block;
     padding: 1rem;
@@ -103,7 +103,7 @@ h2{
 
 .barra:hover:not(.active) {
     background-color: rgb(205, 133, 228);
-} */
+} */ */
 
 .botoninicio {
     width: 3rem;
@@ -150,7 +150,7 @@ h1{
     color: #791b61;
 }
 
-/* Propiedades en comun */
+/* Propiedades en comun
 .d-flex{
     display: flex;
     align-items: center;
@@ -158,7 +158,7 @@ h1{
 }
 .w-50{
     width: 50%;
-}
+} */
 
 /* Seccion profesionales */
 /* Imagen de profesionales */
