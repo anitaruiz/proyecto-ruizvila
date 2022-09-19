@@ -38,6 +38,7 @@ a{
     font-size: 5rem;
     color: #791b61;
 }
+
 /* Parrafos del inicio */
 .parrafos-inicio{
     font-family: 'Roboto', sans-serif;
@@ -235,7 +236,7 @@ label{
 
 
 
- /* Seccion Footer */
+ /* Seccion Footer
 footer{
     margin-top: 2rem;
     border: 0.2rem solid rgb(231, 84, 174);
@@ -246,7 +247,7 @@ footer{
     display: flex;
     
     
-}
+} */
 
 
 
