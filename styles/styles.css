@@ -21,15 +21,24 @@ body {
     background-color: #FFD7F2;
 }
 
-.colornav{
-    background-color:#FFF5EE;
+nav{
+background-color: #BD8FB1;
+font-family: 'Roboto', sans-serif;
 }
+
 
 a{
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
+.botonnav:hover{
+    background-color: #EEE3EB;
+    border-radius: 6px;
+}
+.letrasnav{
+    font-weight: bolder;
+}
 /* INICIO */
 /* Titulo Inicio */
 .titulo-apasi {
@@ -132,13 +141,13 @@ h1{
 }
 
 
-/* Imagen de nosotros */
+/* Imagen de nosotros
 .imagen-nosotros{ 
     width: 20rem;
     float: right;
 }
 
-
+ */
 
 
 
@@ -188,6 +197,8 @@ margin-top: 2rem;
     background-position: center;
     
 }
+
+/* <div class="bg-image hover-zoom"> */
 
 .div-actividades__2{
     text-align: center;
