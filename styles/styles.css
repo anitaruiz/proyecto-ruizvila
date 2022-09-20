@@ -44,7 +44,7 @@ a{
 .titulo-apasi {
     font-family: 'Cinzel', serif;
     text-align: center;
-    font-size: 5rem;
+    font-size: 8rem;
     color: #791b61;
 }
 
@@ -76,6 +76,18 @@ h2{
     text-align: left;
     font-size: 3rem;
     color: #791b61;
+    }
+
+.colorboton{
+    background-color: #BD8FB1;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+    .colorfooter{
+        background-color: #BD8FB1;
+
     }
 /* Barra Navegacion
 .menu{
