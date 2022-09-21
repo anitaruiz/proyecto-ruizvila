@@ -1,11 +1,13 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     height: 100%;
 }
+
 /* Body */
 body {
     background-color: #FFD7F2;
@@ -17,28 +19,30 @@ body {
 
 /* BOOTSTRAP */
 
-.headercolor{
+.headercolor {
     background-color: #FFD7F2;
 }
 
-nav{
-background-color: #BD8FB1;
-font-family: 'Roboto', sans-serif;
+nav {
+    background-color: #BD8FB1;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-a{
+a {
     font-family: 'Roboto', sans-serif;
 
 }
 
-.botonnav:hover{
+.botonnav:hover {
     background-color: #EEE3EB;
     border-radius: 6px;
 }
-.letrasnav{
+
+.letrasnav {
     font-weight: bolder;
 }
+
 /* INICIO */
 /* Titulo Inicio */
 .titulo-apasi {
@@ -49,84 +53,41 @@ a{
 }
 
 /* Parrafos del inicio */
-.parrafos-inicio{
+.parrafos-inicio {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 2rem;  
+    font-size: 2rem;
     justify-self: end;
 
-    }
+}
+
 /* Imagen con texto del inicio */
-.cita{
+.cita {
     font-weight: 900;
-    background-image:url(/assets/imagenes/textura\ papel.jpg);
-    background-size:cover;
+    background-image: url(/assets/imagenes/textura\ papel.jpg);
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
 
-    }
+}
+
 /* Todos los parrafos */
-p{
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
 }
 
 /* Todos los h2 */
-h2{
+h2 {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 3rem;
     color: #791b61;
-    }
-
-.colorboton{
-    background-color: #BD8FB1;
-    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
-    .colorfooter{
-        background-color: #BD8FB1;
-
-    }
-/* Barra Navegacion
-.menu{
-    text-align: center;
-}
-/* .navegador {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    display: inline-block;
-    
-
-} */
-
-/* .barra {
-    float:left;
-    display:block;
-    padding: 1rem;
-    background-color:#FFD7F2;
-    font-family: 'Cinzel', serif;
-    text-align: center;
 
 
-}
-
-.barra a {
-    color: #791b61;
-    font-size: 1rem;
-    font-weight: 900;
-    text-shadow: 2px 2px 4px white
-}
-
-.barra:hover:not(.active) {
-    background-color: rgb(205, 133, 228);
-} */ */
-
-.botoninicio {
+*/ .botoninicio {
     width: 3rem;
     height: 3rem;
 }
@@ -140,12 +101,12 @@ h2{
     display: flex;
     float: none;
 
-    }
+}
 
 
 
 /* Todos los h1 */
-h1{
+h1 {
     font-family: 'Cinzel', serif;
     text-align: left;
     font-size: 3rem;
@@ -164,38 +125,32 @@ h1{
 
 
 /* Todos los H2 con COLOR */
-.h2-color{
+.h2-color {
     font-family: 'Cinzel', serif;
     text-align: left;
     font-size: 2.5rem;
     color: #791b61;
 }
 
-/* Propiedades en comun
-.d-flex{
-    display: flex;
-    align-items: center;
 
-}
-.w-50{
-    width: 50%;
-} */
 
 /* Seccion profesionales */
 /* Imagen de profesionales */
-.imagen-profesionales{
+.imagen-profesionales {
     width: 50%;
     float: right;
 
 }
+
 /* Seccion Institucion */
-.h3-instit{
-font-size: 1.5rem ;
-margin-top: 2rem;
+.h3-instit {
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 
 /* Seccion Actividades */
+
 
 /* Div de actividades */
 .imagen-act{
@@ -204,22 +159,27 @@ margin-top: 2rem;
 .div-actividades{
     text-align: center;
     padding: 4rem;
-    background-image: url(/assets/imagenes/Habilidades\ Socialaes.jpg);
+    background-image: url(/assets/imagenes/Habilidades-Socialaes.jpg);
     background-size: cover;
     background-position: center;
     
 }
 
-/* <div class="bg-image hover-zoom"> */
+.div-actividades:hover{
+    filter:drop-shadow(0 0 0.75rem rgb(185, 185, 185))
+}
+
 
 .div-actividades__2{
     text-align: center;
     padding: 4rem;
-    background-image: url(/assets/imagenes/Orientacion\ a\ paderes.avif);
+    background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
     background-size: cover;
     background-position: center;
 }
-
+.div-actividades__2:hover{
+    filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
+}
 .div-actividades__3{
     text-align: center;
     padding: 4rem;
@@ -227,19 +187,26 @@ margin-top: 2rem;
     background-size: cover;
     background-position: center; 
 }
+.div-actividades__3:hover{
+    filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
+}
 
 .div-actividades__4{
     text-align: center;
     padding: 4rem;
-    background-image: url(/assets/imagenes/independencia\ familiar.avif);
+    background-image: url(/assets/imagenes/independencia-familiar.avif);
     background-size: cover;
     background-position: center; 
+}
+.div-actividades__4:hover{
+    filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
 }
 
 .actividades-texto{
     color: rgb(44, 44, 44);
     text-align: center;
-    text-shadow: 2px 2px 4px #ffffff
+    text-shadow: 2px 2px 4px #ffffff;
+
 }
 
 .actividades-texto__2{
@@ -251,29 +218,19 @@ margin-top: 2rem;
     }
 
 /* CONTACTO */
+.colorboton {
+    background-color: #BD8FB1;
+}
 
-label{
-    text-align: center;
-    justify-content: center;
+.colorboton:hover{
+    background-color: #791b61 !important;
+    color: white !important;
 }
 
 
+/* Footer */
 
- /* Seccion Footer
-footer{
-    margin-top: 2rem;
-    border: 0.2rem solid rgb(231, 84, 174);
-    padding: 3rem;
-    bottom: 0;
-    margin-bottom: 0%;
-    vertical-align: bottom;
-    display: flex;
-    
-    
-} */
+.colorfooter {
+    background-color: #BD8FB1;
 
-
-
-
-
-
+}
