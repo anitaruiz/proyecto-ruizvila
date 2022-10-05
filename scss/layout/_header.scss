@@ -1,0 +1,20 @@
+.headercolor {
+    background-color: $colorfondo;
+}
+
+
+nav {
+    background-color: $coloralt;
+}
+
+#navbarNav{
+    ul {
+        li {
+            a {
+                font-family: $letrasgeneral;
+                font-weight: bolder;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

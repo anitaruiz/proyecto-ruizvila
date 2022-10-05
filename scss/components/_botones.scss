@@ -1,0 +1,8 @@
+.colorboton{
+   background-color: $coloralt; 
+   border-radius: 1rem;
+   &:hover{
+    background-color: $colortitulo;
+    color:white;
+   }
+}

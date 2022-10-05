@@ -1,0 +1,44 @@
+p{
+    font-family: $letrasgeneral;
+    font-size: $sizep;
+}
+h1{
+    font-family: $letrastitulo;
+    font-size:$sizeh1;
+    color:$colortitulo;
+    text-align: center;
+}
+h2{
+    font-family: $letrastitulo;
+    font-size:$sizeh1;
+    color:$colortitulo;
+    text-align: center;
+    }
+h3{
+    font-size: $letrasgeneral;
+    font-size: 1.7rem;
+    color: $coloralt;
+}
+.titulo-apasi {
+    font-family:$letrastitulo;
+    font-size: 6rem;
+    color:$colortitulo;
+}
+
+.parrafos-inicio {
+    font-family: $letrasgeneral;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.cita {
+    font-weight: 900;
+    font-family: $letrasgeneral;
+}
+
+.h3-instit{
+    font-family: $letrastitulo;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: underline;
+}
