@@ -1,0 +1,55 @@
+@mixin div-actividades {
+    text-align: center;
+    padding: 4rem;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.actividades1 {
+@include div-actividades();
+    background-image: url(/assets/imagenes/Habilidades-Socialaes.jpg);
+    &:hover{
+        filter:drop-shadow(0 0 0.75rem rgb(185, 185, 185))
+    }
+}
+
+.actividades-texto {
+    color: $color1act;
+    text-align: center;
+    text-shadow:2px 2px 4px $shadow1;
+    font-size: 2.5rem;
+}
+
+
+.actividades-texto__2{
+    color: $color2act;
+    text-align: center;
+    text-shadow: black 2px; 
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2.3rem;    
+    }
+.div-actividades__2{
+@include div-actividades();
+background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
+&:hover{
+    filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
+}
+}
+
+.div-actividades__3{
+    @include div-actividades();
+    background-image: url(/assets/imagenes/capacitaciones.avif);
+    &:hover{
+        filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
+    }
+}
+
+.div-actividades__4{
+    @include div-actividades();
+    background-image: url(/assets/imagenes/independencia-familiar.avif);
+    &:hover{
+        filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
+    }
+}
