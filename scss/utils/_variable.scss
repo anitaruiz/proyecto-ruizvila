@@ -8,3 +8,12 @@ $colortitulo: #791b61;
 $color1act: rgb(44, 44, 44);
 $color2act:rgb(244, 236, 236);
 $shadow1:#ffffff;
+
+@mixin div-actividades {
+    text-align: center;
+    padding: 4rem;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
