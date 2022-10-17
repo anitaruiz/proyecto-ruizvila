@@ -132,7 +132,7 @@ form-label {
   background-position: center;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  background-image: url(/assets/imagenes/Habilidades-Socialaes.jpg);
+  background-image: url(/assets/imagenes/habilidades-sociales.jpg);
 }
 .actividades1:hover {
   filter: drop-shadow(0 0 0.75rem rgb(185, 185, 185));
@@ -160,7 +160,7 @@ form-label {
   background-position: center;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
+  background-image: url(/assets/imagenes/orientacion-a-padres.avif);
 }
 .div-actividades__2:hover {
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));

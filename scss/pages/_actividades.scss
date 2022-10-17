@@ -9,7 +9,7 @@
 
 .actividades1 {
 @include div-actividades();
-    background-image: url(/assets/imagenes/Habilidades-Socialaes.jpg);
+    background-image: url(../../assets/imagenes/habilidades-sociales.jpg);
     &:hover{
         filter:drop-shadow(0 0 0.75rem rgb(185, 185, 185))
     }
@@ -32,7 +32,7 @@
     }
 .div-actividades__2{
 @include div-actividades();
-background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
+background-image: url(../../assets/imagenes/orientacion-a-padres.avif);
 &:hover{
     filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
 }
@@ -40,7 +40,7 @@ background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
 
 .div-actividades__3{
     @include div-actividades();
-    background-image: url(/assets/imagenes/capacitaciones.avif);
+    background-image: url(../../assets/imagenes/capacitaciones.avif);
     &:hover{
         filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
     }
@@ -48,7 +48,7 @@ background-image: url(/assets/imagenes/Orientacion-a-paderes.avif);
 
 .div-actividades__4{
     @include div-actividades();
-    background-image: url(/assets/imagenes/independencia-familiar.avif);
+    background-image: url(../../assets/imagenes/independencia-familiar.avif);
     &:hover{
         filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
     }
