@@ -1,11 +1,3 @@
-@mixin div-actividades {
-    text-align: center;
-    padding: 4rem;
-    background-size: cover;
-    background-position: center;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-}
 
 .actividades1 {
 @include div-actividades();
@@ -32,7 +24,7 @@
     }
 .div-actividades__2{
 @include div-actividades();
-background-image: url(../../assets/imagenes/orientacion-a-padres.avif);
+background-image: url(../../assets/imagenes/orientacion-a-padres1.jpg);
 &:hover{
     filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
 }
@@ -40,7 +32,7 @@ background-image: url(../../assets/imagenes/orientacion-a-padres.avif);
 
 .div-actividades__3{
     @include div-actividades();
-    background-image: url(../../assets/imagenes/capacitaciones.avif);
+    background-image: url(../../assets/imagenes/capacitaciones1.jpg);
     &:hover{
         filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
     }
@@ -48,7 +40,7 @@ background-image: url(../../assets/imagenes/orientacion-a-padres.avif);
 
 .div-actividades__4{
     @include div-actividades();
-    background-image: url(../../assets/imagenes/independencia-familiar.avif);
+    background-image: url(../../assets/imagenes/independencia-familiar1.jpg);
     &:hover{
         filter:drop-shadow(0 0 0.75rem rgb(0, 0, 0))
     }

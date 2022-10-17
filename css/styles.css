@@ -116,7 +116,7 @@ nav {
 }
 
 .cita {
-  background-image: url(/assets/imagenes/citas3.avif);
+  background-image: url(/assets/imagenes/citas3.1.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -160,7 +160,7 @@ form-label {
   background-position: center;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  background-image: url(../assets/imagenes/orientacion-a-padres.avif);
+  background-image: url(../assets/imagenes/orientacion-a-padres1.jpg);
 }
 .div-actividades__2:hover {
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -173,7 +173,7 @@ form-label {
   background-position: center;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  background-image: url(../assets/imagenes/capacitaciones.avif);
+  background-image: url(../assets/imagenes/capacitaciones1.jpg);
 }
 .div-actividades__3:hover {
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
@@ -186,7 +186,7 @@ form-label {
   background-position: center;
   margin-top: 4rem;
   margin-bottom: 1.5rem;
-  background-image: url(../assets/imagenes/independencia-familiar.avif);
+  background-image: url(../assets/imagenes/independencia-familiar1.jpg);
 }
 .div-actividades__4:hover {
   filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
